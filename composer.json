@@ -7,4 +7,5 @@
     "autoload": {
         "psr-4": {"RowingChatAutomation\\": "src/"}
     }
+    
 }
