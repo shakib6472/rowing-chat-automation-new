@@ -222,7 +222,7 @@ class Plugin
 
             echo "<script>window.open('{$auth_url}', '_blank');</script>";
             echo "<noscript><a href='{$auth_url}' target='_blank'>Authorize with SoundCloud</a></noscript>";
-            exit;
+            exit;  
         } else {
             // Debug log to confirm we have a token
             error_log('[ROWCHAT] Access token found. Proceeding with automation.');

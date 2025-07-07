@@ -12,4 +12,5 @@ define('RCA_SC_CLIENT_SECRET', '65109653a5ddbdf4a473acc80667c6cd');
 // User credentials
 define('RCA_SC_EMAIL', 'becky@rowperfect.co.uk');
 define('RCA_SC_PASSWORD', 'd&hSCW^6DNrT');
+// define('RCA_SC_REDIRECT_URI', 'https://rowperfect.co.uk/wp-admin/admin-post.php?action=soundcloud_callback');
 

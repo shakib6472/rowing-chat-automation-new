@@ -19,8 +19,7 @@ namespace RowingChatAutomationPlugin;
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
-}
-
+} 
 
 // Load Composer's autoloader
 require_once('vendor/autoload.php'); 
@@ -31,9 +30,7 @@ function init()
     $plugin = new \RowingChatAutomation\Plugin();
     $plugin->init();
 }
-add_action('plugins_loaded', __NAMESPACE__ . '\init');
-
- 
+add_action('plugins_loaded', __NAMESPACE__ . '\init'); 
 add_action('admin_post_soundcloud_callback', 'rowchat_soundcloud_callback');
 
 function rowchat_soundcloud_callback() {
