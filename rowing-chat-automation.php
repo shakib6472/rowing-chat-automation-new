@@ -27,7 +27,7 @@ require_once('config.php');
 
 function init()
 {
-    $plugin = new \RowingChatAutomation\Plugin();
+    $plugin = new \RowingChatAutomation\Plugin(); 
     $plugin->init();
 }
 add_action('plugins_loaded', __NAMESPACE__ . '\init'); 
