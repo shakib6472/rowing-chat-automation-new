@@ -202,3 +202,4 @@ This plugin is licensed under the GPL v2 or later.
 - Admin settings panel
 - AJAX integration
 - Security features
+- Neeed to change it
