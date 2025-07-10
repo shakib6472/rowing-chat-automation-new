@@ -24,7 +24,7 @@ if (!defined('ABSPATH')) {
 // Load Composer's autoloader
 require_once('vendor/autoload.php'); 
 require_once('config.php');
-
+//calling init functions
 function init()
 {
     $plugin = new \RowingChatAutomation\Plugin(); 
